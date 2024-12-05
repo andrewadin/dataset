@@ -1,0 +1,14 @@
+train: ../dataset/train/images
+val: ../dataset/valid/images
+test: ../dataset/test/images
+
+nc: 1
+names: 
+  0: 'chicken'
+
+roboflow:
+  workspace: testo-prssn
+  project: label-ayam-ylrkt
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/testo-prssn/label-ayam-ylrkt/dataset/1
